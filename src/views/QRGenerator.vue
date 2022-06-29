@@ -27,7 +27,7 @@ export default {
      methods:{
       getQRcode(){
     
-      axios.post('http://localhost:8081/api/rest/qr-generator')
+      axios.post(' https://ptf-qr.herokuapp.com/api/rest/qr-generator')
       .then((response)=>{
         this.QRValue=response.data;
         console.log(response.status);
