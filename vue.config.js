@@ -10,6 +10,6 @@ module.exports = {
     'vuetify'
   ],
   devServer: {
-    proxy: 'https://qr-scan3.herokuapp.com/'
+    proxy: 'https://my--1.herokuapp.com/'
   }
 }
